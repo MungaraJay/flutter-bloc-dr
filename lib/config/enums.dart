@@ -1,0 +1,4 @@
+enum ApiType {
+  fetchCryptoCurrency,
+  fetchCryptoOrderBook,
+}

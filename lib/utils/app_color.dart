@@ -14,6 +14,7 @@ class AppColor {
   static Color greyTextColor = const Color(0xFF565656);
   static Color purpleTextColor = const Color(0xFF8422f9);
   static Color darkPurpleTextColor = const Color(0xFF6f00f8);
+  static Color snackBarColor = const Color(0xFF4daf50);
 
   static MaterialColor colorBlue = Colors.blue;
 }
