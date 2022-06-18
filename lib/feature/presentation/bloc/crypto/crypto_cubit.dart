@@ -14,9 +14,16 @@ class CryptoCubit extends Cubit<CryptoState> {
       CryptoCurrencyResponse cryptoCurrencyResponse = await _cryptoRepository
           .fetchCryptoCurrencyConversion(currency: currency);
 
-      emit(CryptoLoadedState(cryptoCurrencyResponse: cryptoCurrencyResponse));
+      emit(CryptoLoadedState(
+          cryptoCurrencyResponse: cryptoCurrencyResponse, isHidden: true));
     } catch (e) {
       emit(CryptoErrorState(error: e.toString()));
     }
+  }
+
+  Future<void> toggleOrderBook(
+      CryptoCurrencyResponse cryptoCurrencyResponse, bool isHidden) async {
+    emit(CryptoLoadedState(
+        cryptoCurrencyResponse: cryptoCurrencyResponse, isHidden: isHidden));
   }
 }
