@@ -1,7 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.flutter_bloc_dr">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="flutter_bloc_dr"
+        android:label="Flutter App"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
