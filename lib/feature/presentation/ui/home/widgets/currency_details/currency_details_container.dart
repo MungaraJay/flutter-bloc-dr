@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_dr/feature/domain/entity/crypto_currency_response.dart';
-import 'package:flutter_bloc_dr/feature/presentation/screen/home/widgets/currency_details/currency_details_row.dart';
+import 'package:flutter_bloc_dr/feature/presentation/ui/home/widgets/currency_details/currency_details_row.dart';
 import 'package:flutter_bloc_dr/utils/app_color.dart';
 import 'package:flutter_bloc_dr/utils/app_utils.dart';
 

@@ -24,6 +24,7 @@ class CryptoCurrency {
     this.low,
     this.ask,
     this.open,
+    this.currency,
   });
 
   CryptoCurrency.fromJson(dynamic json, String val) {
